@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Definição recursiva da linguagem proposicional — Introdução Computacional à Lógica Matemática</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="site-header-inner">
+    <p class="site-subtitle">Versão estática da Wiki</p>
+    <h1 class="site-title">Introdução Computacional à Lógica Matemática</h1>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h2>Navegação</h2>
+    <ul class="nav-list">
+      <li><a href="acarretamento.html">Acarretamento</a></li>
+<li><a href="assinatura-de-primeira-ordem.html">Assinatura de primeira ordem</a></li>
+<li><a href="correcao-e-completude-para-a-logica-proposicional-classica.html">Correção e completude para a Lógica Proposicional Clássica</a></li>
+<li><a href="correcao-e-completude-para-a-logica-de-primeira-ordem-classica.html">Correção e completude para a Lógica de Primeira Ordem Clássica</a></li>
+<li><a href="correcao-e-completude.html">Correção e completude</a></li>
+<li><a href="deducao-natural-para-a-logica-proposicional-classica.html">Dedução Natural para a Lógica Proposicional Clássica</a></li>
+<li><a href="deducao-natural-para-a-logica-proposicional-intuicionista.html">Dedução Natural para a Lógica Proposicional Intuicionista</a></li>
+<li><a href="deducao-natural-para-a-logica-de-primeira-ordem-classica.html">Dedução Natural para a Lógica de Primeira Ordem Clássica</a></li>
+<li><a href="deducao-natural-para-a-logica-de-primeira-ordem-intuicionista.html">Dedução Natural para a Lógica de Primeira Ordem Intuicionista</a></li>
+<li><a href="deducao-natural.html">Dedução Natural</a></li>
+<li><a href="definicao-recursiva-da-linguagem-proposicional.html">Definição recursiva da linguagem proposicional</a></li>
+<li><a href="estrategias-de-demonstracao.html">Estratégias de demonstração</a></li>
+<li><a href="exercicios-de-deducao-natural.html">Exercícios de Dedução Natural</a></li>
+<li><a href="exercicios-de-semantica-formal-para-a-logica-proposicional-classica.html">Exercícios de semântica formal para a Lógica Proposicional Clássica</a></li>
+<li><a href="exercicios-de-semantica-formal-para-a-logica-de-primeira-ordem-classica.html">Exercícios de semântica formal para a Lógica de Primeira Ordem Clássica</a></li>
+<li><a href="formalismos-dedutivos.html">Formalismos dedutivos</a></li>
+<li><a href="formulas-de-primeira-ordem.html">Fórmulas de primeira ordem</a></li>
+<li><a href="index.html">Início</a></li>
+<li><a href="logica-de-primeira-ordem.html">Lógica de primeira ordem</a></li>
+<li><a href="logica-proposicional.html">Lógica proposicional</a></li>
+<li><a href="modelos-logica.html">Modelos (lógica)</a></li>
+<li><a href="poder-expressivo-dos-operadores-classicos.html">Poder expressivo dos operadores clássicos</a></li>
+<li><a href="quantificadores.html">Quantificadores</a></li>
+<li><a href="relacao-de-consequencia.html">Relação de consequência</a></li>
+<li><a href="semantica-formal-para-a-logica-proposicional-classica.html">Semântica formal para a Lógica Proposicional Clássica</a></li>
+<li><a href="semantica-formal-para-a-logica-de-primeira-ordem-classica.html">Semântica formal para a Lógica de Primeira Ordem Clássica</a></li>
+<li><a href="semantica-formal-para-a-logica-de-primeira-ordem.html">Semântica formal para a lógica de primeira ordem</a></li>
+<li><a href="semantica-formal-para-a-logica-proposicional.html">Semântica formal para a lógica proposicional</a></li>
+<li><a href="sintaxe-logica.html">Sintaxe (lógica)</a></li>
+<li><a href="sintaxe-da-logica-de-primeira-ordem.html">Sintaxe da lógica de primeira ordem</a></li>
+<li><a href="sintaxe-da-logica-proposicional.html">Sintaxe da lógica proposicional</a></li>
+<li><a href="termos-de-primeira-ordem.html">Termos de primeira ordem</a></li>
+    </ul>
+  </aside>
+
+  <main class="article">
+    <h1>Definição recursiva da linguagem proposicional</h1>
+    <h2>Tópicos</h2>
+<ul>
+<li>Como um <em>conjunto indutivamente definido</em></li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hCCVtDR4RVo?si=dvKPKtaTHRynjERI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<ul>
+<li>Como uma <em>álgebra absolutamente livre</em> (e também como <em>objeto inicial</em> da categoria associada)</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hCCVtDR4RVo?si=OMLB7PKyH1xZPV6n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h2>Para reflexão</h2>
+<ul>
+<li>Como deveria ser a definição recursiva estrutural de <strong>substituição de átomos por fórmulas</strong>, de modo a consistir em um endomorfismo sobre a álgebra das fórmulas?</li>
+<li>Notação: <code>φ[p ↦ ψ]</code>, denotando o resultado de substituir, na fórmula <code>φ</code>, todas as ocorrências do átomo <code>p</code> pela fórmula <code>ψ</code>.</li>
+</ul>
+<h2>Veja também</h2>
+<ul>
+<li><a href="sintaxe-da-logica-proposicional.html">Sintaxe da lógica proposicional</a></li>
+<li><a href="index.html">Home</a></li>
+</ul>
+<h2>Links externos</h2>
+<ul>
+<li><a href="https://pt.wikipedia.org/wiki/Assinatura_(l%C3%B3gica)">Assinatura (lógica)</a></li>
+<li><a href="https://pt.wikipedia.org/wiki/F%C3%B3rmula_(l%C3%B3gica)">Fórmula (lógica)</a></li>
+<li><a href="https://pt.wikipedia.org/wiki/Indu%C3%A7%C3%A3o_estrutural">Indução estrutural</a></li>
+</ul>
+<hr />
+  </main>
+</div>
+
+<footer class="footer">
+  
+</footer>
+</body>
+</html>
